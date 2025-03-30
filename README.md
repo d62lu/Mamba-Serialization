@@ -16,6 +16,10 @@ necessitates serialization, which significantly impacts the performance of Mamba
 The latest codes are tested on CUDA11.3 and above, PyTorch 1.10.1 and Python 3.9.
 For mamba installation, please refer to PointMamba (https://github.com/LMD0311/PointMamba)
 
+The PointMamba is implemented in pt_mamba.py in the 'models' folder.
+
+Different serialization methods are implemented in the 'data_utils' folder.
+
 
 ## Acknowledgement
 
